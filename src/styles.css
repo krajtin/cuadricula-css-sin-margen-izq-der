@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #ccc;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.elemento {
+  color: #ff0000;
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.el {
+  box-sizing: inherit;
+  background-color: #000;
+  min-height: 200px;
+  margin: 0 0 1rem;
+}
